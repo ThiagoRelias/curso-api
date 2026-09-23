@@ -20,6 +20,7 @@ public class CursoController {
         this.cursoService = cursoService;
     }
 
+
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public CursoResponseDTO criar(@Valid @RequestBody CursoRequestDTO dtoRequest) {
